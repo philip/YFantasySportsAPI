@@ -3,8 +3,10 @@ info:
   title: Yahoo Fantasy Sports API Documentation
   description: Yahoo Fantasy Sports Rest API Documentation created by users
   version: 0.1.0
+  license:
+    name: Unknown
 servers:
-- url: https://fantasysports.yahooapis.com/fantasy/v2/
+- url: https://fantasysports.yahooapis.com/fantasy/v2
   description: Yahoo REST API server
 paths:
   "/game/{game_key}/metadata":
